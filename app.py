@@ -6,7 +6,7 @@ import streamlit as st
 # -------------------------
 st.set_page_config(
     page_title="Diagnosis Assistant",
-    page_icon="logo.png",
+    page_icon="https://raw.githubusercontent.com/Shasthihaarunkumar/disease-diagnosis/main/logo.png",
     layout="centered"
 )
 
