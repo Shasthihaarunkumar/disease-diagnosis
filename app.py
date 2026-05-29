@@ -195,7 +195,6 @@ if st.button("Predict Disease"):
 
         st.markdown(
             f"**• {disease}** \n"
-            f"Final score: `{int(score)}` | Normalized: `{norm:.2f}` \n"
             f"Matched symptoms: `{cov}/{len(selected_symptoms)}` \n"
             f"Suggested doctor: **{doctor}**"
         )
