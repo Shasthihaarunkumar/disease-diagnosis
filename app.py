@@ -6,7 +6,7 @@ import streamlit as st
 # -------------------------
 st.set_page_config(
     page_title="Diagnosis Assistant",
-    page_icon="🩺",
+    page_icon="logo.png",
     layout="centered"
 )
 
@@ -81,6 +81,7 @@ disease_popularity = mapping_df.groupby("disease")["symptom"].nunique()
 # -------------------------
 # 5) UI
 # -------------------------
+st.image("logo.png", width=150)
 st.title("🩺 Diagnosis Assistant")
 st.write(
     "Select symptoms and get **possible associated conditions** based on biomedical literature. "
